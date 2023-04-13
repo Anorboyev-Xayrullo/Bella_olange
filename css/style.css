@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.navbar_list {
+    margin-left: 300px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.navbar_list li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navbar_list li span {
+    color: #FA4A0C;
+}
+
+
+
+.food {
+    background-image: url(../img/Rectangle\ 48.png);
+}
+
+.food h3 {
+    margin-top: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #F7F7F7;
+    text-align: center;
+}
+
+.food h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.food p {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #F7F7F7;
+}
+
+.plays {
+    padding: 7px 30px;
+    border: none;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+
+.store {
+    padding: 7px 30px;
+    border: none;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url(.jpg);
+    margin-left: 30px;
+}
+
+.food div {
+    margin-left: 480px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.work {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 100px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.group {
+    width: 10%;
+}
+
+.phone {
+    width: 100%;
+}
+
+.create p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.create h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.create h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.create {
+    margin-top: 250px;
+}
+
+
+
+
+@media (max-width:575px) {
+    .bella {
+        margin-left: 80px;
+    }
+
+    .navbar_list {
+        margin-left: 0px;
+        gap: 20px;
+    }
+
+    .food div {
+        margin-left: 0;
+    }
+
+    .plays {
+        margin-left: 100px;
+        font-size: 18px;
+    }
+
+    .store {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+
+    .food h3 {
+        margin-top: 50px;
+    }
+
+    .food h2 {
+        font-size: 22px;
+    }
+
+    .food p {
+        font-size: 14px;
+    }
+
+    .create {
+        margin-top: 0;
+    }
+    .create p{
+        font-size: 22px;
+        text-align: center;
+    }
+    .work{
+        font-size: 26px;
+    }
+    .create h2{
+        font-size: 22px;
+        text-align: center;
+    }
+    .create h3
+    {
+        font-size: 22px;
+        text-align: center;
+    }
+}
