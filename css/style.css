@@ -191,9 +191,95 @@ li {
 
 
 
+.now h3 {
+    margin-top: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #F7F7F7;
+    text-align: center;
+}
+
+.now h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.now p {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #F7F7F7;
+}
+
+
+.now div {
+    margin-left: 480px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.now {
+    background-image: url(../img/Rectangle\ 47.png);
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.fa-brands {
+    color: red;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.icon {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.twenty {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
 @media (max-width:575px) {
     .bella {
         margin-left: 80px;
+        margin-top: 30px;
     }
 
     .navbar_list {
@@ -231,20 +317,52 @@ li {
     .create {
         margin-top: 0;
     }
-    .create p{
+
+    .create p {
         font-size: 22px;
         text-align: center;
     }
-    .work{
+
+    .work {
         font-size: 26px;
     }
-    .create h2{
+
+    .create h2 {
         font-size: 22px;
         text-align: center;
     }
-    .create h3
-    {
+
+    .create h3 {
         font-size: 22px;
         text-align: center;
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
+
+    .now div {
+        margin-left: 0;
+    }
+
+    .now h3 {
+        margin-top: 50px;
+    }
+
+    .now h2 {
+        font-size: 22px;
+    }
+
+    .now p {
+        font-size: 14px;
+    }
+    .icon{
+        margin-left: 20px;
+    }
+    .twenty{
+        text-align: center;
+    }
+    .phone{
+        margin-left: 35px;
     }
 }
